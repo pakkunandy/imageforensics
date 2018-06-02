@@ -16,6 +16,7 @@ Nowadays, the tampered image is more difficult to detect. Many techniques that c
   * [Scipy](https://www.scipy.org/install.html)
   * [Pillow](https://pillow.readthedocs.io/en/5.1.x/installation.html)
   * [PyWavelets](http://pywavelets.readthedocs.io/en/latest/)
+  * [Matplotlib](https://matplotlib.org/users/installing.html)
 
 Or, Simply run command to install the packets:
 ```bash
