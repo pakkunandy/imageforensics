@@ -1,0 +1,101 @@
+DIGITAL IMAGE FORENSICS
+
+Anh Duy TRAN
+
+--------------------------------------------------------------------
+REQUIREMENT
+1. Python 2.7
+2. Python libraries:
+   * exifread
+   * opencv-python
+   * progressbar2
+   * numpy
+   * scipy
+   * Pillow
+   * PyWavelets
+
+Simply run command to install the packets:
+   ./install_packet.sh
+
+--------------------------------------------------------------------
+FUNCTIONS
+##########
+1. Analysing using Metadata EXIF header
+
+python foreimg.py exif1.jpg
+
+or:
+
+python foreimg.py -e exif1.jpg
+(This is the default function)
+
+More to test:
+
+python foreimg.py exif2.jpg
+python foreimg.py exif3.jpg
+
+##########
+2. Exposing digital forgeries by JPEG Ghost
+
+python foreimg.py -g demo.jpg
+
+Or multiple version:
+
+python foreimg.py -gm demo.jpg
+
+More:
+You can choose the quality of the resaved image:
+
+python foreimg.py -g -q 50 demo.jpg
+
+##########
+3. Exposing digital forgeries by Noise Inconsistencies
+
+python foreimg.py -n1 demo.jpg
+
+You also can chosse the block size kernel:
+python foreimg.py -n1 -s 7 demo.jpg
+
+##########
+4. Exposing digital forgeries by Median-filter noise residue inconsistencies
+
+python foreimg.py -n2 demo.jpg
+
+You also can chosse the block size kernel:
+python foreimg.py -n2 -s 7 demo.jpg
+
+##########
+5. Exposing digital forgeries by Error Level Analysis (ELA):
+
+python foreimg.py -el demo.jpg
+
+You also can chosse the quality of resaved image and the block size kernel:
+python foreimg.py -el -q 90 -s 7 demo.jpg
+
+##########
+6. Exposing digital forgeries by demosaicing artifacts (CFA):
+
+python foreimg.py -cf demo.jpg
+
+(this will take a little bit longer the previous ones)
+
+----------------------------------------------------------------
+For more information about the command, you can type:
+
+python foreimg.py -h
+
+----------------------------------------------------------------
+For more information about the theory, you can check the REPORT.pdf.
+
+---------------------------------------------------------------
+COMMANDS SUMMARY
+python foreimg.py exif1.jpg
+python foreimg.py exif2.jpg
+python foreimg.py exif3.jpg
+python foreimg.py -g demo.jpg
+python foreimg.py -gm demo.jpg
+python foreimg.py -n1 demo.jpg
+python foreimg.py -n2 demo.jpg
+python foreimg.py -el demo.jpg
+python foreimg.py -cf demo.jpg
+
