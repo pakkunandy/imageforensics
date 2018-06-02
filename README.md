@@ -31,6 +31,8 @@ or:
 ```
 python foreimg.py -e exif1.jpg
 ```
+
+After you run the command, the Warning and the detail of EXIF will be shown.
 (This is the default function)
 
 More to test:
@@ -50,6 +52,8 @@ Or multiple version:
 python foreimg.py -gm demo.jpg
 ```
 
+After you run the command, the tampered region is highlight will dark color.
+
 More:
 You can choose the quality of the resaved image:
 
@@ -61,6 +65,7 @@ python foreimg.py -g -q 50 demo.jpg
 ```
 python foreimg.py -n1 demo.jpg
 ```
+After you run the command, the tampered region is highlight will dark color.
 
 You also can chosse the block size kernel:
 
@@ -72,6 +77,7 @@ python foreimg.py -n1 -s 7 demo.jpg
 ```
 python foreimg.py -n2 demo.jpg
 ```
+After you run the command, the tampered region is highlight will dark color.
 
 You also can chosse the block size kernel:
 
@@ -83,6 +89,7 @@ python foreimg.py -n2 -s 7 demo.jpg
 ```
 python foreimg.py -el demo.jpg
 ```
+After you run the command, the tampered region is highlight will dark color.
 
 You also can chosse the quality of resaved image and the block size kernel:
 
@@ -94,6 +101,7 @@ python foreimg.py -el -q 90 -s 7 demo.jpg
 ```
 python foreimg.py -cf demo.jpg
 ```
+After you run the command, the tampered region is highlight will dark color.
 
 (this will take a little bit longer the previous ones)
 
@@ -104,7 +112,7 @@ For more information about the command, you can type:
 python foreimg.py -h
 ```
 
-For more information about the theory, you can check the REPORT.pdf.
+For more information about the theory, you can check the [REPORT.pdf](https://github.com/anhduy41294/imageforensics/blob/master/REPORT.pdf).
 
 ## Commands Sumamry
 
@@ -119,3 +127,5 @@ python foreimg.py -n2 demo.jpg
 python foreimg.py -el demo.jpg
 python foreimg.py -cf demo.jpg
 ```
+
+The folder contains the `exif*.jpg` for testing with EXIF, and `demo*.jpg` for testing with other methods. You can play around with those images. The quality of the tool is as well as with the online tool [Forensically]https://29a.ch/photo-forensics/#forensic-magnifier)
