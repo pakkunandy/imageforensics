@@ -128,4 +128,4 @@ python foreimg.py -el demo.jpg
 python foreimg.py -cf demo.jpg
 ```
 
-The folder contains the `exif*.jpg` for testing with EXIF, and `demo*.jpg` for testing with other methods. You can play around with those images. The quality of the tool is as well as with the online tool [Forensically]https://29a.ch/photo-forensics/#forensic-magnifier)
+The folder contains the `exif*.jpg` for testing with EXIF, and `demo*.jpg` for testing with other methods. You can play around with those images. The quality of the tool is as well as with the online tool [Forensically](https://29a.ch/photo-forensics/#forensic-magnifier)
