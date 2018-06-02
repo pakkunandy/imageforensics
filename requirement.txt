@@ -5,3 +5,4 @@ scipy
 PyWavelets
 numpy
 progressbar2
+matplotlib

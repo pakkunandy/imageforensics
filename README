@@ -13,6 +13,7 @@ REQUIREMENT
    * scipy
    * Pillow
    * PyWavelets
+   * Matplotlib
 
 Simply run command to install the packets:
    ./install_packet.sh
