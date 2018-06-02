@@ -52,7 +52,7 @@ Or multiple version:
 python foreimg.py -gm demo.jpg
 ```
 
-After you run the command, the tampered region is highlight will dark color.
+After you run the command, the tampered region is highlight with dark color.
 
 More:
 You can choose the quality of the resaved image:
@@ -65,7 +65,7 @@ python foreimg.py -g -q 50 demo.jpg
 ```
 python foreimg.py -n1 demo.jpg
 ```
-After you run the command, the tampered region is highlight will dark color.
+After you run the command, the tampered region is highlight with dark color.
 
 You also can chosse the block size kernel:
 
@@ -77,7 +77,7 @@ python foreimg.py -n1 -s 7 demo.jpg
 ```
 python foreimg.py -n2 demo.jpg
 ```
-After you run the command, the tampered region is highlight will dark color.
+After you run the command, the tampered region is highlight with dark color.
 
 You also can chosse the block size kernel:
 
@@ -89,7 +89,7 @@ python foreimg.py -n2 -s 7 demo.jpg
 ```
 python foreimg.py -el demo.jpg
 ```
-After you run the command, the tampered region is highlight will dark color.
+After you run the command, the tampered region is highlight with dark color.
 
 You also can chosse the quality of resaved image and the block size kernel:
 
@@ -101,7 +101,7 @@ python foreimg.py -el -q 90 -s 7 demo.jpg
 ```
 python foreimg.py -cf demo.jpg
 ```
-After you run the command, the tampered region is highlight will dark color.
+After you run the command, the tampered region is highlight with dark color.
 
 (this will take a little bit longer the previous ones)
 
