@@ -477,7 +477,8 @@ def noise_inconsistencies(file_path, block_size):
         for j in range(0, len(cD[0]), block_size):
             blockElement = cD[i:i+block_size, j:j+block_size]
             temp = np.reshape(blockElement, (1, 1, block_size**2))
-            block[int((i-1)/(block_size+1)), int((j-1)/(block_size+1)), :]
+            block[int((i-1)/(block_size+1)),
+                  int((j-1)/(block_size+1)), :] = temp
 
     bar.update(15)
     abs_map = np.absolute(block)
