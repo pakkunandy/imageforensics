@@ -6,7 +6,7 @@ I gathered some techniques in some paper and composed the small tools that imple
 Nowadays, the tampered image is more difficult to detect. Many techniques that counter the detection. My tool implements some techniques are a little bit old, but still useful in some image. Some tampered images are easy to detect by these methods but hard to detect by the others. Therefore, we need to combine many techniques to analyze one images.
 
 ## Requirement
-* [Python 2.7](https://www.python.org/)
+* [Python 3](https://www.python.org/)
 * [PIP](https://pip.pypa.io/en/stable/installing/)
 * Python Libraries:
   * [exifread](https://pypi.org/project/ExifRead/)
